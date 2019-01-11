@@ -17,16 +17,17 @@ function whileLoop(number){
   return "done";
 }
 
+let i = 0;
 
+function incrementVariable() {
+  i = i + 1;
+}
 
-function doWhileLoop(array){
-
-  function incrementVariable() {
-    i = --array.length;
-  }
+function doWhileLoop(array){ //ex. num = [1,2,3]
   do {
-    incrementVariable();
-
-  } while (array.length > 0 && incrementVariable());
-
+   array.pop() //removes the last element from array
+   incrementVariable(); //adds 1 to the counter
+    
+ } while (array.length > 0 && incrementVariable());//checks to see if its true
+  
 }
