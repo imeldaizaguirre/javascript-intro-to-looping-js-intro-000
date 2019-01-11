@@ -19,15 +19,13 @@ function whileLoop(number){
 
 let i = 0;
 
-function incrementVariable() {
-  i = i + 1;
-}
+
 
 function doWhileLoop(array) { //ex. num = [1,2,3]
   do {
    array.pop() //removes the last element from array
-   incrementVariable(); //adds 1 to the counter
+ //adds 1 to the counter
 
- } while (array.length > 0 && incrementVariable());//checks to see if its true
+ } while (array.length > 0);//checks to see if its true
 
 }
