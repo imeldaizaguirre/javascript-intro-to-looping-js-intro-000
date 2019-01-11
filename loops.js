@@ -21,9 +21,9 @@ let i = 0;
 
 
 
-function doWhileLoop(array) { 
+function doWhileLoop(array) {
   do {
-   array.pop() 
+   array.pop()
  } while (array.length > 0);
  return array 
 }
