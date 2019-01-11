@@ -29,5 +29,5 @@ function doWhileLoop(array){ //ex. num = [1,2,3]
    incrementVariable(); //adds 1 to the counter
     
  } while (array.length > 0 && incrementVariable());//checks to see if its true
-  
+
 }
