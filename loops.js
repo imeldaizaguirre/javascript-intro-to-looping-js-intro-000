@@ -23,7 +23,7 @@ function incrementVariable() {
   i = i + 1;
 }
 
-function doWhileLoop(array){ //ex. num = [1,2,3]
+function doWhileLoop(array) { //ex. num = [1,2,3]
   do {
    array.pop() //removes the last element from array
    incrementVariable(); //adds 1 to the counter
