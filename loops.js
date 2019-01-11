@@ -1,12 +1,17 @@
-for (var array =0; array < 25; array++) {
-  if(array === 1) {
-    console.log("I am " + array + " strange loop.")
-  }else {
-    console.log(`I am ${array} strange loops.`)
+function forLoop(array){
+  for (var array =0; array < 25; array++) {
+    if(array === 1) {
+      console.log("I am " + array + " strange loop.")
+    }else {
+      console.log(`I am ${array} strange loops.`)
+
+    }
 
   }
 
 }
+
+
 
 function whileLoop(number){
   let countdown = number;
