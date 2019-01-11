@@ -21,11 +21,9 @@ let i = 0;
 
 
 
-function doWhileLoop(array) { //ex. num = [1,2,3]
+function doWhileLoop(array) { 
   do {
-   array.pop() //removes the last element from array
- //adds 1 to the counter
-
- } while (array.length > 0);//checks to see if its true
-
+   array.pop() 
+ } while (array.length > 0);
+ return array 
 }
